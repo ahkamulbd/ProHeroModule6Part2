@@ -6,6 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom Property</title>
+    <style>
+        :root {
+            --main-color: slateblue;
+            --backg-color: blueviolet;
+            --main-color-red: red;
+        }
+
+        h1 {
+            color: var(--main-color);
+        }
+
+        h2 {
+            color: slateblue;
+        }
+
+        h4 {
+            color: slateblue;
+        }
+
+        p {
+            background-color: var(--backg-color);
+        }
+
+        aside {
+            color: var(--main-color-red);
+        }
+
+        footer {
+            color: slateblue;
+        }
+    </style>
 </head>
 
 <body>
